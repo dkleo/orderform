@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC
+        "-//SPRING//DTD BEAN//EN"
+        "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+    <!-- the application context definition for the springapp DispatcherServlet -->
+
+    <bean name="print" class="com.dkleo.orderform.controller.PrintController"/>
+
+    <bean id="xmlViewResolver" class="org.springframework.web.servlet.view.XmlViewResolver">
+      <property name="order" value="1"/>
+      <property name="location" value="/WEB-INF/views.xml"/>
+    </bean>
+</beans>
