@@ -4,8 +4,6 @@ package com.dkleo.orderform.view;
  * Created with IntelliJ IDEA.
  * User: Derek
  * Date: 1/19/13
- * Time: 7:39 PM
- * To change this template use File | Settings | File Templates.
  */
 
 import java.awt.*;
@@ -46,9 +44,9 @@ public class LittleSisters extends AbstractPdfView {
 
         Chunk space = new Chunk(" ");
         Phrase p1 = new Phrase(new Chunk("Blue Kite Press", FontFactory.getFont(FontFactory.HELVETICA_BOLD, 14) ));
-        Phrase p2 = new Phrase(new Chunk("2109 Broadway #3-65", FontFactory.getFont(FontFactory.HELVETICA_BOLD, 14) ));
-        Phrase p3 = new Phrase(new Chunk("New York, NY 10023", FontFactory.getFont(FontFactory.HELVETICA_BOLD, 14) ));
-        Phrase p4 = new Phrase(new Chunk("212-721-0305", FontFactory.getFont(FontFactory.HELVETICA, 14) ));
+        Phrase p2 = new Phrase(new Chunk("68 Maple Street", FontFactory.getFont(FontFactory.HELVETICA_BOLD, 14) ));
+        Phrase p3 = new Phrase(new Chunk("Croton-on-Hudson, NY 10520", FontFactory.getFont(FontFactory.HELVETICA_BOLD, 14) ));
+        Phrase p4 = new Phrase(new Chunk("917-340-6703", FontFactory.getFont(FontFactory.HELVETICA, 14) ));
         Chunk c5 = new Chunk("info@bluekitepress.com", FontFactory.getFont(FontFactory.HELVETICA, 14, Color.BLUE) );
         c5.setUnderline(0.2f, -2f);
         Anchor p5 = new Anchor(c5);
